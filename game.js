@@ -18,7 +18,7 @@ window.onload = function() {
 
     var bg = Crafty.e('2D, DOM, Image, Text, Mouse')
      	.attr({w: Crafty.viewport.width, h: Crafty.viewport.height})
-  		.image('img/bg_sketch_05_scaled.png', 'no-repeat');
+  		.image('img/bgScaled.png', 'no-repeat');
 
   	var girl = Crafty.e('2D, DOM, Image, Tween, Mouse')
       .image('img/girlScaled.png', 'no-repeat')
